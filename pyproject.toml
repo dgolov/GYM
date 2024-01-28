@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "gym"
+version = "0.1.0"
+description = ""
+authors = ["dgolov <dmitriy.evgenyevich@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.109.0"
+alembic = "^1.13.1"
+uvicorn = "^0.27.0"
+pydantic = "^2.5.3"
+psycopg2-binary = "^2.9.9"
+asyncpg = "^0.29.0"
+python-dotenv = "^1.0.1"
+sqlalchemy = "^2.0.25"
+gunicorn = "^21.2.0"
+fastapi-users = "^12.1.2"
+fastapi-users-db-sqlalchemy = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
